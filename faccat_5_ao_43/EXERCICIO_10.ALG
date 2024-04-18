@@ -5,17 +5,12 @@ Algoritmo "Exercicio_10"
 // Autor(a)    : Yan Moisés Rodrigues
 // Data atual  : 15/03/2024
 Var
-// Seção de Declarações das variáveis
-fabrica:real
-distribuidor:real
-impostos:real
-custo_consumidor:real
-
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-leia (fabrica)
-distribuidor <- 28/100
-impostos <- 45/100
-custo_consumidor <- (fabrica * distribuidor)+ (fabrica * impostos)
-escreval(custo_consumidor)
-Fimalgoritmo
+   custo_fabrica, percentual_distribuidor, impostos, custo_final: real
+inicio
+   escreval("Digite o custo de fábrica do carro:")
+   leia(custo_fabrica)
+   percentual_distribuidor <- 0.28 * custo_fabrica
+   impostos <- 0.45 * custo_fabrica
+   custo_final <- custo_fabrica + percentual_distribuidor + impostos
+   escreval("O custo final ao consumidor é: ", custo_final:1:2)
+fimalgoritmo
