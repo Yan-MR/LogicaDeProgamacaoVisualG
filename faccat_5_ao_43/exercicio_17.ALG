@@ -16,7 +16,8 @@ Inicio
    leia (nota2)
    avaliativa <- (nota1 + nota2) /2
    se (avaliativa > 5.9) entao
-      escreval("você foi aprovado") senao
+      escreval("você foi aprovado")
+      senao
       escreval ("você foi reprovado")
    fimse
    escreval ("sua media doi de :",avaliativa)

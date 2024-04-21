@@ -1,4 +1,4 @@
-Algoritmo "exercicio_28"
+Algoritmo "exercicio_19"
 // Disciplina   : [Lógica de Programação com JavaScript]
 // Professor   : Jailson
 // Descrição   : O progama diz qual é o maior valor, ou se são iguais.
@@ -9,7 +9,6 @@ Var
    valor1:inteiro
    valor2:inteiro
    valor3:inteiro
-   total:inteiro
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...

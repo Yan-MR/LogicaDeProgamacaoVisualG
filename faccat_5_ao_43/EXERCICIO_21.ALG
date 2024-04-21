@@ -6,7 +6,6 @@ Algoritmo "exercicio_21"
 // Data atual  : 19/03/2024
 Var
 // Seção de Declarações das variáveis 
- dia:inteiro
  _inicio:inteiro
  _fim:inteiro
  hora:inteiro
@@ -21,6 +20,6 @@ hora <- _fim - _inicio
 se (hora > 24) entao
 escreval ("Essa partida, foi inválida, pois passou as 24 horas.")
 senao
-escreval("Essa partida, durou",hora,"hrs.")
+escreval("Essa partida, durou ",hora,"horas.")
 fimse
 Fimalgoritmo

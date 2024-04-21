@@ -9,7 +9,6 @@ Var
    atual: real
    maxima: real
    minima: real
-   media: real
    total: real
 
 Inicio
@@ -20,8 +19,6 @@ Inicio
    leia (maxima)
    escreval ("coloque a quantidade minima")
    leia (minima)
-   escreval ("escreva a quantidade média do produto")
-   leia (media)
    media <- (maxima + minima) /2
    escreval ("a media do seu estoque é de", media)
    se atual >= media entao
