@@ -14,10 +14,7 @@ Inicio
    leia(b)
    escreva("Digite o valor de c: ")
    leia(c)
-
-   // Verificação das condições para formar um triângulo
    se (a < b + c) e (b < a + c) e (c < a + b) então
-      // Verificação do tipo de triângulo
       se (a = b) e (b = c) então
          escreval("Triângulo Equilátero")
       senao
