@@ -46,8 +46,8 @@ Inicio
                escreval ("não será efetuada soma nenhuma, pois são idades iguais")
             senao
                se (homem2 > homem1) e (mulher2 > mulher1) entao
-                  soma <- homem2 + mulher1)
-                  soma2 <- homem1 + mulher2)
+                  soma <- homem2 + mulher1
+                  soma2 <- homem1 + mulher2
                   escreval ("A soma do homem mais velho com a mulher mais nova é de: ", soma)
                   escreval ("A soma do homem mais novo com a mulher mais velha é de: ", soma2)
                fimse

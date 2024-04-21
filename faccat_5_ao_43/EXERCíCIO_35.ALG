@@ -1,6 +1,6 @@
 Algoritmo "Exercício_35"
 // Disciplina   : [Lógica de Programação com JavaScript]
-// Professor   : Jailson Costa dos Santos 
+// Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Yan Moisés Rodrigues
 // Data atual  : 04/04/2024
@@ -38,7 +38,14 @@ Inicio
          escreval("Tipo de combustível inválido!")
       fimse
    fimse
-   valor_a_pagar <- litros_vendidos * preco_alcool - desconto se tipo_combustivel = "A" senao preco_gasolina - desconto
-      escreval("Valor a ser pago pelo cliente: R$ ", valor_a_pagar)
+   se tipo_combustivel = "A" entao
+      valor_a_pagar <- litros_vendidos * preco_alcool - desconto
+      escreval("Valor a ser pago pelo cliente: R$ ", valor_a_pagar:2:2)
+   senao
+      se tipo_combustivel = "G" entao
+         valor_a_pagar <- litros_vendidos * preco_gasolina - desconto
+         escreval("Valor a ser pago pelo cliente: R$ ", valor_a_pagar:2:2)
+      fimse
+   fimse
 
 Fimalgoritmo

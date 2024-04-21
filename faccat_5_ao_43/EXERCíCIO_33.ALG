@@ -6,7 +6,8 @@ Algoritmo "Exercício_33"
 // Data atual  : 04/04/2024
 Var
    // Seção de Declarações das variáveis
-   numero1, numero2:inteiro
+   numero1:inteiro
+   numero2:inteiro
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -18,9 +19,9 @@ Inicio
       escreval ("os numero são iguais")
    senao
       se (numero1 < numero2) entao
-         escreval ("o", numero1, " é maior que", numero2)
+         escreval ("o ", numero1, " é menor que", numero2)
       senao
-         escreval ("o", numero2, " é menor que", numero1)
+         escreval ("o ", numero2, " é menor que", numero1)
       fimse
    fimse
 
